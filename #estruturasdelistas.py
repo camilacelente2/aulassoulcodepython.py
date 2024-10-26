@@ -29,3 +29,26 @@ lista2 = ['p', 'y', 't', 'h' 'o', 'n']
 nova_lista2 = lista2[::-1]
 print(nova_lista2)
 
+#Incluir, alterar e Excluir
+animais = ['gato', 'cachorro', 'elefante']
+print(animais)
+animais.append('galinha')
+print(animais)
+animais.insert(0, 'papagaio')
+print(animais)
+animais.pop(0)
+print(animais)
+animais.remove('gato')
+print(animais)
+
+#Ordenação de listas
+lista = ['a', 'x', 's', 'w', 'd', 'a', 'n', 'a']
+#lista.reserve()
+lista.sort()
+
+print(lista)
+
+for i in range(len(lista)):
+  print(lista[i])
+  l = lista.count('a')
+  print(l)
