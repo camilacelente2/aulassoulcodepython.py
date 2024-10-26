@@ -23,3 +23,16 @@ def mult(a, b):
   return a * b
 
 print(mult(2,5))
+
+#Exercício de Operações Matemática
+def operacoes(a, b):
+  soma = a + b
+  sub = a - b
+  mult = a * b
+  div = a /b
+  print("soma:", soma)
+  print("subitração:", sub)
+  print("multiplicação:", mult)
+  print("divisão:", div)
+
+operacoes(4, 2)
